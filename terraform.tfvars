@@ -1,0 +1,11 @@
+region = "ap-southeast-2"
+cidr_vpc = "10.0.0.0/16"
+vpc_name  = "my-vpc"
+cidr_subnet  = "10.0.1.0/24"
+azone  = "ap-southeast-2a"
+subnet_name  = "my-subnet"
+sg_name  = "DevOps-SG"
+key_name  = "DevOps-Key"
+itype  = "t3.micro"
+iname  = "My-Instance"
+instance_count = 1
